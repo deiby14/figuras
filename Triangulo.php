@@ -23,4 +23,5 @@ class Triangulo extends FiguraGeometrica {
         return "Triángulo con lados: {$this->lado1}, {$this->lado2}, {$this->lado3}";
     }
 }
+
 ?>
