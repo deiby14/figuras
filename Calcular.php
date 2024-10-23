@@ -7,6 +7,7 @@ require_once 'Rectangulo.php';
 require_once 'Cuadrado.php';
 require_once 'Circulo.php';
 
+
 // Recuperar datos del formulario
 $tipoFigura = $_POST['tipoFigura'] ?? '';  
 $lado1 = $_POST['lado1'] ?? '';  //  para evitar el "undefined key"
