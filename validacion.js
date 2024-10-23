@@ -18,10 +18,10 @@ function validarLado(inputId, error) {
         errorSpan.textContent = "No se puede ingresar un valor mayor a 100";
     }
 
-    // Si hay un error, borde rojo
     if (errorSpan.textContent) {
         input.className = "input-error"; // Asigna directamente la clase input-error
     }
     
 }
+
 
