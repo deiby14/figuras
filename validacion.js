@@ -20,7 +20,8 @@ function validarLado(inputId, error) {
 
     // Si hay un error, borde rojo
     if (errorSpan.textContent) {
-        input.classList.add("input-error");
+        input.className = "input-error"; // Asigna directamente la clase input-error
     }
+    
 }
 
