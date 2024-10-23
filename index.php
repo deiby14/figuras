@@ -17,7 +17,7 @@
         <label for="tipoFigura">Seleccione una figura:</label>
         <select name="tipoFigura" id="tipoFigura" required>
             <option value="">--Seleccione--</option>
-            <option value="Triángulo">Triángulo</option>
+            <option value="Triángulo">Triángul</option>
             <option value="Rectángulo">Rectángulo</option>
             <option value="Cuadrado">Cuadrado</option>
             <option value="Círculo">Círculo</option>
